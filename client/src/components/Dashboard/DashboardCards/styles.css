@@ -1,0 +1,10 @@
+.textLimit {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+   height: 38px;
+   color: hsl(210deg 8% 25%);
+   font-size: 13px
+}
